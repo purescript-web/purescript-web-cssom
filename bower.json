@@ -1,0 +1,17 @@
+{
+  "name": "purescript-web-cssom",
+  "homepage": "https://github.com/purescript-web/purescript-web-cssom",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/purescript-web/purescript-web-cssom.git"
+  },
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "node_modules",
+    "output",
+    "bower.json",
+    "package.json"
+  ]
+}
