@@ -13,5 +13,8 @@
     "output",
     "bower.json",
     "package.json"
-  ]
+  ],
+  "dependencies": {
+    "purescript-web-dom": "^1.0.0"
+  }
 }
