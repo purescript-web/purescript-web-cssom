@@ -3,7 +3,7 @@
 [![Latest release](http://img.shields.io/github/release/purescript-web/purescript-web-cssom.svg)](https://github.com/purescript-web/purescript-web-cssom/releases)
 [![Build status](https://travis-ci.org/purescript-web/purescript-web-cssom.svg?branch=master)](https://travis-ci.org/purescript-web/purescript-web-cssom)
 
-Type definitions and low level interface implementations for the CSS Object Model.
+Type definitions and low level interface implementations for the [CSS Object Model](https://www.w3.org/TR/cssom/).
 
 ## Installation
 
