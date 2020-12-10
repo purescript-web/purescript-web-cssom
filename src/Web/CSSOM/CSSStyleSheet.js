@@ -17,7 +17,6 @@ exports.setDisabled = function(bool) {
   return function(sheet) {
     return function() {
       sheet.disabled = bool;
-      return {};
     };
   };
 };
