@@ -1,7 +1,7 @@
 /.*
 !/.gitignore
 !/.eslintrc.json
-!/.travis.yml
+!/.github/
 package-lock.json
 yarn.lock
 /bower_components/
