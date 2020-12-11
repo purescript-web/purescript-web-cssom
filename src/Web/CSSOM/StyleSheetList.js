@@ -12,9 +12,9 @@ exports.toArray = function (list) {
   };
 };
 
-exports._item = function(index) {
-  return function(list) {
-    return function() {
+exports._item = function (index) {
+  return function (list) {
+    return function () {
       return list.item(index);
     };
   };
