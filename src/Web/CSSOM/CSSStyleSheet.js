@@ -1,7 +1,7 @@
 "use strict";
 
-var getProp = function(name) {
-  return function(sheet) {
+var getProp = function (name) {
+  return function (sheet) {
     return sheet[name];
   };
 };
@@ -13,17 +13,16 @@ exports._parentStyleSheet = getProp("parentStyleSheet");
 exports._title = getProp("title");
 exports._type = getProp("type");
 
-exports.setDisabled = function(bool) {
-  return function(sheet) {
-    return function() {
+exports.setDisabled = function (bool) {
+  return function (sheet) {
+    return function () {
       sheet.disabled = bool;
-      return {};
     };
   };
 };
 
-exports.toggleDisabled = function(sheet) {
-  return function() {
+exports.toggleDisabled = function (sheet) {
+  return function () {
     var bool = !sheet.disabled;
     sheet.disabled = bool;
     return bool;
