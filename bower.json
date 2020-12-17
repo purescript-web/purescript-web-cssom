@@ -16,6 +16,7 @@
   ],
   "dependencies": {
     "purescript-web-dom": "master",
+    "purescript-web-uievents": "master",
     "purescript-web-html": "master"
   }
 }
