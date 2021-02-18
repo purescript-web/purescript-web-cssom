@@ -12,3 +12,13 @@ Bugfixes:
 
 Other improvements:
 
+## [v1.0.0](https://github.com/purescript-web/purescript-web-cssom/releases/tag/v1.0.0) - 2021-02-26
+
+Breaking changes:
+
+New features:
+
+Bugfixes:
+
+Other improvements:
+
