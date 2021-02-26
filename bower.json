@@ -4,7 +4,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/purescript-web/purescript-web-cssom.git"
+    "url": "https://github.com/purescript-web/purescript-web-cssom.git"
   },
   "ignore": [
     "**/.*",
@@ -15,8 +15,8 @@
     "package.json"
   ],
   "dependencies": {
-    "purescript-web-dom": "master",
-    "purescript-web-uievents": "master",
-    "purescript-web-html": "master"
+    "purescript-web-dom": "^5.0.0",
+    "purescript-web-html": "^3.0.0",
+    "purescript-web-uievents": "^3.0.0"
   }
 }
