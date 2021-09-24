@@ -13,10 +13,10 @@ import Web.CSSOM.Internal.Types (CSSStyleDeclaration) as Exports
 import Web.CSSOM.Internal.Types (CSSStyleDeclaration)
 
 foreign import cssText :: CSSStyleDeclaration -> Effect String
-foreign import setCssText :: CSSStyleDeclaration -> String -> Effect Unit
+foreign import setCssText :: String -> CSSStyleDeclaration -> Effect Unit
 foreign import length :: CSSStyleDeclaration -> Effect Number
 
-foreign import getPropertyPriority :: CSSStyleDeclaration -> String -> Effect String
-foreign import getPropertyValue :: CSSStyleDeclaration -> String -> Effect String
-foreign import removeProperty :: CSSStyleDeclaration -> String -> Effect Unit
-foreign import setProperty :: CSSStyleDeclaration -> String -> String -> Effect Unit
+foreign import getPropertyPriority :: String -> CSSStyleDeclaration -> Effect String
+foreign import getPropertyValue :: String -> CSSStyleDeclaration -> Effect String
+foreign import removeProperty :: String -> CSSStyleDeclaration -> Effect Unit
+foreign import setProperty :: String -> String -> CSSStyleDeclaration -> Effect Unit

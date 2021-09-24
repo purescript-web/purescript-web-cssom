@@ -6,8 +6,8 @@ exports.cssText = function (style) {
   };
 };
 
-exports.setCssText = function (style) {
-  return function (newCSS) {
+exports.setCssText = function (newCSS) {
+  return function (style) {
     return function () {
       style.cssText = newCSS;
     };
@@ -20,33 +20,33 @@ exports.length = function (style) {
   };
 };
 
-exports.getPropertyPriority = function (style) {
-  return function (propName) {
+exports.getPropertyPriority = function (propName) {
+  return function (style) {
     return function () {
       return style.getPropertyPriority(propName);
     };
   };
 };
 
-exports.getPropertyValue = function (style) {
-  return function (propName) {
+exports.getPropertyValue = function (propName) {
+  return function (style) {
     return function () {
       return style.getPropertyValue(propName);
     };
   };
 };
 
-exports.removeProperty = function (style) {
-  return function (propName) {
+exports.removeProperty = function (propName) {
+  return function (style) {
     return function () {
       style.removeProperty(propName);
     };
   };
 };
 
-exports.setProperty = function (style) {
-  return function (propName) {
-    return function (propValue) {
+exports.setProperty = function (propName) {
+  return function (propValue) {
+    return function (style) {
       return function () {
         style.setProperty(propName, propValue);
       };
