@@ -1,9 +1,9 @@
 "use strict";
 
-exports.offsetX = function (e) {
+export function offsetX(e) {
   return e.offsetX;
-};
+}
 
-exports.offsetY = function (e) {
+export function offsetY(e) {
   return e.offsetY;
-};
+}
