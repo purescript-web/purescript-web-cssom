@@ -6,12 +6,12 @@ var getProp = function (name) {
   };
 };
 
-export var disabled = getProp("disabled");
-export var _href = getProp("href");
-export var _ownerNode = getProp("ownerNode");
-export var _parentStyleSheet = getProp("parentStyleSheet");
-export var _title = getProp("title");
-export var _type = getProp("type");
+export const disabled = getProp("disabled");
+export const _href = getProp("href");
+export const _ownerNode = getProp("ownerNode");
+export const _parentStyleSheet = getProp("parentStyleSheet");
+export const _title = getProp("title");
+export const _type = getProp("type");
 
 export function setDisabled(bool) {
   return function (sheet) {
