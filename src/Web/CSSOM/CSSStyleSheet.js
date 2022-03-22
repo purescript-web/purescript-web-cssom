@@ -6,25 +6,25 @@ var getProp = function (name) {
   };
 };
 
-exports.disabled = getProp("disabled");
-exports._href = getProp("href");
-exports._ownerNode = getProp("ownerNode");
-exports._parentStyleSheet = getProp("parentStyleSheet");
-exports._title = getProp("title");
-exports._type = getProp("type");
+export var disabled = getProp("disabled");
+export var _href = getProp("href");
+export var _ownerNode = getProp("ownerNode");
+export var _parentStyleSheet = getProp("parentStyleSheet");
+export var _title = getProp("title");
+export var _type = getProp("type");
 
-exports.setDisabled = function (bool) {
+export function setDisabled(bool) {
   return function (sheet) {
     return function () {
       sheet.disabled = bool;
     };
   };
-};
+}
 
-exports.toggleDisabled = function (sheet) {
+export function toggleDisabled(sheet) {
   return function () {
     var bool = !sheet.disabled;
     sheet.disabled = bool;
     return bool;
   };
-};
+}

@@ -1,7 +1,7 @@
 "use strict";
 
-exports.style = function (el) {
+export function style(el) {
   return function () {
     return el.style;
   };
-};
+}
