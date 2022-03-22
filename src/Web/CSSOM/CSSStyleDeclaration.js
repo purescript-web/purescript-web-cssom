@@ -1,5 +1,3 @@
-"use strict";
-
 export function cssText(style) {
   return function () {
     return style.cssText;

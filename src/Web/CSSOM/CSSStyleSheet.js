@@ -1,5 +1,3 @@
-"use strict";
-
 var getProp = function (name) {
   return function (sheet) {
     return sheet[name];
