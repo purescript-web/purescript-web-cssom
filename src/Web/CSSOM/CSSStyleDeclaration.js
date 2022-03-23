@@ -1,50 +1,48 @@
-"use strict";
-
-exports.cssText = function (style) {
+export function cssText(style) {
   return function () {
     return style.cssText;
   };
-};
+}
 
-exports.setCssText = function (style) {
+export function setCssText(style) {
   return function (newCSS) {
     return function () {
       style.cssText = newCSS;
     };
   };
-};
+}
 
-exports.length = function (style) {
+export function length(style) {
   return function () {
     return style.length;
   };
-};
+}
 
-exports.getPropertyPriority = function (style) {
+export function getPropertyPriority(style) {
   return function (propName) {
     return function () {
       return style.getPropertyPriority(propName);
     };
   };
-};
+}
 
-exports.getPropertyValue = function (style) {
+export function getPropertyValue(style) {
   return function (propName) {
     return function () {
       return style.getPropertyValue(propName);
     };
   };
-};
+}
 
-exports.removeProperty = function (style) {
+export function removeProperty(style) {
   return function (propName) {
     return function () {
       style.removeProperty(propName);
     };
   };
-};
+}
 
-exports.setProperty = function (style) {
+export function setProperty(style) {
   return function (propName) {
     return function (propValue) {
       return function () {
@@ -52,4 +50,4 @@ exports.setProperty = function (style) {
       };
     };
   };
-};
+}
