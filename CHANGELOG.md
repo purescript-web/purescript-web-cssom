@@ -6,6 +6,10 @@ Notable changes to this project are documented in this file. The format is based
 
 Breaking changes:
 - Migrate FFI to ES modules (#14 by @JordanMartinez)
+- Update `CSSStyleDeclaration` functions to take `style` arg last (#12 by @theqp)
+
+  This follows the convention of "the thing being operated on" occurs
+  last in function that take multiple arguments.
 
 New features:
 
