@@ -5,6 +5,7 @@ Notable changes to this project are documented in this file. The format is based
 ## [Unreleased]
 
 Breaking changes:
+- Migrate FFI to ES modules (#14 by @JordanMartinez)
 
 New features:
 
@@ -14,11 +15,4 @@ Other improvements:
 
 ## [v1.0.0](https://github.com/purescript-web/purescript-web-cssom/releases/tag/v1.0.0) - 2021-02-26
 
-Breaking changes:
-
-New features:
-
-Bugfixes:
-
-Other improvements:
-
+- Initial release of the `web-cssom` library, compatible with PureScript 0.14

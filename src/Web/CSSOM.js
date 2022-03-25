@@ -1,8 +1,6 @@
 // Web.CSSOM
-"use strict";
-
-exports.getStyleSheets = function(doc) {
+export function getStyleSheets(doc) {
   return function() {
     return doc.styleSheets;
   };
-};
+}
