@@ -5,6 +5,16 @@ Notable changes to this project are documented in this file. The format is based
 ## [Unreleased]
 
 Breaking changes:
+
+New features:
+
+Bugfixes:
+
+Other improvements:
+
+## [v2.0.0](https://github.com/purescript-web/purescript-web-cssom/releases/tag/v2.0.0) - 2022-04-28
+
+Breaking changes:
 - Migrate FFI to ES modules (#14 by @JordanMartinez)
 - Update `CSSStyleDeclaration` functions to take `style` arg last (#12 by @theqp)
 
