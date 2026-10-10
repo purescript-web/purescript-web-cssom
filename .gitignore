@@ -2,8 +2,6 @@
 !/.gitignore
 !/.eslintrc.json
 !/.github/
-package-lock.json
 yarn.lock
-/bower_components/
 /node_modules/
 /output/
