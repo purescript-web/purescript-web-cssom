@@ -4,7 +4,7 @@ export function cssText(style) {
   };
 }
 
-export function setCssText (newCSS) {
+export function setCssText(newCSS) {
   return function (style) {
     return function () {
       style.cssText = newCSS;
