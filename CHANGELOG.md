@@ -12,6 +12,11 @@ Bugfixes:
 
 Other improvements:
 
+## [v2.0.1](https://github.com/purescript-web/purescript-web-cssom/releases/tag/v2.0.1) - 2026-10-10
+
+Other improvements:
+- Migrated from Bower/Pulp to registry-backed Spago and updated PureScript, CI, and development tooling with Oxlint, Oxfmt, and purs-tidy (#16 by @thomashoneyman).
+
 ## [v2.0.0](https://github.com/purescript-web/purescript-web-cssom/releases/tag/v2.0.0) - 2022-04-28
 
 Breaking changes:
